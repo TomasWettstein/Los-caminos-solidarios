@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+/*Navbar*/
+._nav_item:hover{
+    background-color: darkgrey;
+    transition: 1s;
+    border-radius: 5px;
+}
+/*Index*/
+._logo{
+    animation-name: logo;
+    animation-duration: 5s;
+}
+._section_bg{
+    background-image: url('../img/bg-1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+._section_bg_dos{
+    margin-top: -20px;
+    background-image: url('../img/bg-2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+._texto_home{
+    background-color :rgba(98, 85, 45, 0.45);
+    font-size: 30px;
+}
+/*Contacto*/
+._bg_contacto{
+    background-image: url('../img/bg-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+._texto_contacto{
+    font-size: 30px;
+}
+
+@keyframes logo {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+   
+}
