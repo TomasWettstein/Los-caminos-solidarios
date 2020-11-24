@@ -3,6 +3,11 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif; 
+    background-image: url('../img/bg-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /*Navbar*/
 ._nav_item:hover{
@@ -37,20 +42,25 @@ body{
     font-size: 30px;
 }
 /*Contacto*/
-._bg_contacto{
-    background-image: url('../img/bg-3.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+._card_contacto{
+    background-color: rgba(234, 251, 218, 0.51);
+    border-radius: 20%;
 }
 ._texto_contacto{
     font-size: 30px;
+}
+._section_contacto{
+    margin-top: 2em;
+    height: 100vh;
 }
 
 @keyframes logo {
     0%{opacity: 0;}
     100%{opacity: 1;}
    
+}
+@media(max-width: 768px){
+    ._texto_contacto{
+        font-size: 20px;
+    }
 }
